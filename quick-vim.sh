@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #TODO
-configurl="https://"
+configurl="https://raw.githubusercontent.com/AfzGit/quick-vim/main/init.vim"
 
 # Installing the config file
 curl -s "$configurl" >> /home/$USER/.vimrc

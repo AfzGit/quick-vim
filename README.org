@@ -3,5 +3,5 @@
   Quick-vim helps beginners in vim get started on their vim journey by providing them with a basic config file and also provides a way to replicate a basic vim configuration on multiple systems with ease.
 * INSTALLATION
 #+BEGIN_SRC py
-curl -s githublinkofscript | bash
+curl -s https://raw.githubusercontent.com/AfzGit/quick-vim/main/quick-vim.sh | bash
 #+END_SRC
