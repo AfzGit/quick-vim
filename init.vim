@@ -8,14 +8,14 @@ endif
 
 " Uncomment and then install these using :PlugInstall
 
-"call plug#begin()
+call plug#begin()
 
 " Plug 'sbdchd/neoformat' " Format code
 " Plug 'lambdalisue/suda.vim' " Easily write sudo file
 " Plug 'neoclide/coc.nvim' " vs code like extensions for coding https://github.com/neoclide/coc.nvim
 " Plug 'pseewald/vim-anyfold' " Fold Code, enable the config at the bottom of .vimrc config file
 
-"call plug#end()
+call plug#end()
 
 " ---------- Set options
 " Sets number on left
