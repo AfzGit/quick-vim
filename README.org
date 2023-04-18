@@ -1,0 +1,7 @@
+* ABOUT
+  Quick-vim is a quick way to set up vim with a basic but usable configuration.
+  Quick-vim helps beginners in vim get started on their vim journey by providing them with a basic config file and also provides a way to easly replicate a basic vim configuration on multiple systems with ease.
+* INSTALLATION
+  #BEGIN_SRC sh
+  curl -s githublinkofscript | bash
+  #END_SRC sh
