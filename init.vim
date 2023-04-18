@@ -1,13 +1,16 @@
 " ---------- Plugins
 " Uncomment and then install these using :PlugInstall
-call plug#begin()
+
+"call plug#begin()
+
 " Plug 'sbdchd/neoformat' " Format code
 " Plug 'lambdalisue/suda.vim' " Easily write sudo file
 " Plug 'neoclide/coc.nvim' " vs code like extensions for coding https://github.com/neoclide/coc.nvim
 " Plug 'pseewald/vim-anyfold' " Fold Code, enable the config at the bottom of .vimrc config file
-call plug#end()
 
-" ---------- Set
+"call plug#end()
+
+" ---------- Set options
 " Sets number on left
 set number
 " Sets relative number on left
@@ -25,7 +28,7 @@ set shiftwidth=4
 " Set clipboard as global
 set clipboard+=unnamedplus
 " Colorscheme
-colorscheme evening
+colorscheme pablo
 " Automatically write when opening another file
 set autowrite
 " No word wrapping
@@ -137,14 +140,9 @@ command! Qa qa
 command! W w
 command! Wa wa
 
-" ---------------- New unorganized
-" set visualbell
-"set fileformats+=mac
-
 " ---------------- vim-anyfold config
 " filetype plugin indent on " required
 " syntax on                 " required
 " autocmd Filetype * AnyFoldActivate               " activate for all filetypes
 " set foldlevel=0  " close all folds by default
 " set foldlevel=99 " open all folds by default
-
