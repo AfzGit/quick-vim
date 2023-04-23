@@ -5,3 +5,8 @@
 #+BEGIN_SRC py
 curl -s https://raw.githubusercontent.com/AfzGit/quick-vim/main/quick-vim | bash
 #+END_SRC
+* EXTRA
+For "sudo vim" users, after executing the INSTALLATION command just run the code below:
+#+BEGIN_SRC py
+cp /home/$USER/.vimrc /root/
+#+END_SRC
