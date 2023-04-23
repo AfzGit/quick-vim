@@ -2,11 +2,11 @@
   Quick-vim is a quick way to set up vim with a basic but usable configuration.
   Quick-vim helps beginners in vim get started on their vim journey by providing them with a basic config file and also provides a way to replicate a basic vim configuration on multiple systems with ease.
 * INSTALLATION
-#+BEGIN_SRC py
+#+BEGIN_SRC sh
 curl -s https://raw.githubusercontent.com/AfzGit/quick-vim/main/quick-vim | bash
 #+END_SRC
 * EXTRA
-For "sudo vim" users, after executing the INSTALLATION command just run the code below:
-#+BEGIN_SRC py
-cp /home/$USER/.vimrc /root/
+For "sudo vim" users, run this command next (as user not as root):
+#+BEGIN_SRC sh
+sudo cp /home/$USER/.vimrc /root/
 #+END_SRC
